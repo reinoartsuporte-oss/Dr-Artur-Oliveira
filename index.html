@@ -1,443 +1,401 @@
-<!DOCTYPE html>
-<html lang="pt-BR" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Artur De Oliveira | Especialista em Dentística e Cirurgião-Dentista</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            50: '#f0fdf4',
-                            100: '#dcfce7',
-                            500: '#10b981',
-                            600: '#059669',
-                            700: '#047857',
-                            800: '#065f46',
-                            900: '#064e3b',
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-        }
-    </style>
-</head>
-<body class="bg-slate-50 text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
-
-    <!-- HERO SECTION (PRIMEIRA DOBRA) -->
-    <header class="relative bg-gradient-to-b from-slate-900 via-slate-900 to-slate-800 text-white overflow-hidden pt-12 pb-20 md:py-24">
-        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:16px_16px]"></div>
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 text-center flex flex-col items-center">
-            
-            <!-- FOTO PRINCIPAL NO TOPO -->
-            <div class="mb-8 relative group">
-                <div class="absolute -inset-1.5 bg-gradient-to-r from-emerald-500 to-teal-400 rounded-3xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
-                <div class="relative w-44 h-44 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-800 bg-slate-800 mx-auto">
-                    <img src="https://i.imgur.com/Gbb5GJH.png" alt="Dr. Artur De Oliveira" class="w-full h-full object-cover object-top hover:scale-105 transition duration-500">
-                </div>
-                <div class="absolute -bottom-3 -right-3 bg-emerald-600 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1.5 border border-slate-900">
-                    <i class="fa-solid fa-circle-check text-emerald-300"></i> Goiânia & São Paulo
-                </div>
+<!-- HERO SECTION (PRIMEIRA DOBRA) -->
+<header class="relative bg-gradient-to-b from-slate-900 via-slate-900 to-slate-800 text-white overflow-hidden pt-12 pb-20 md:py-24">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 relative z-10 text-center flex flex-col items-center">
+        
+        <!-- FOTO PRINCIPAL NO TOPO -->
+        <div class="mb-8 relative group">
+            <div class="absolute -inset-1.5 bg-gradient-to-r from-emerald-500 to-teal-400 rounded-3xl blur opacity-30 group-hover:opacity-60 transition duration-500"></div>
+            <div class="relative w-44 h-44 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-800 bg-slate-800 mx-auto">
+                <img src="https://i.imgur.com/Gbb5GJH.png" alt="Dr. Artur De Oliveira" class="w-full h-full object-cover object-top hover:scale-105 transition duration-500">
             </div>
-
-            <!-- HEADLINE E TEXTOS LOGO ABAIXO -->
-            <span class="inline-block bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs sm:text-sm font-semibold px-4 py-1.5 rounded-full mb-6 tracking-wide uppercase">
-                Excelência em Dentística & Estética
-            </span>
-
-            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-6 max-w-3xl">
-                Eu sou <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">Artur De Oliveira</span>, Cirurgião-Dentista em Goiânia e São Paulo
-            </h1>
-
-            <p class="text-lg sm:text-xl text-slate-300 mb-10 max-w-2xl font-light leading-relaxed">
-                Transformando sorrisos com planejamento de alta precisão, atendimento humanizado focado em conforto e resultados que devolvem sua confiança ao sorrir.
-            </p>
-
-            <!-- BOTÃO PRINCIPAL -->
-            <div class="w-full max-w-md mx-auto flex flex-col items-center">
-                <a href="https://api.whatsapp.com/message/KN6JZHLQ73PFF1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" 
-                   class="w-full bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold text-base sm:text-lg px-8 py-4 rounded-xl shadow-xl shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:-translate-y-0.5 transition-all duration-200 flex items-center justify-center gap-3 group">
-                    <i class="fa-brands fa-whatsapp text-2xl text-slate-950 group-hover:scale-110 transition-transform"></i>
-                    Agendar primeira consulta gratuita no WhatsApp
-                </a>
-                <div class="flex items-center gap-2 mt-3 text-xs text-slate-400">
-                    <i class="fa-solid fa-bolt text-amber-400"></i>
-                    <span>Resposta rápida • Sem compromisso</span>
-                </div>
-            </div>
-
-        </div>
-    </header>
-
-    <!-- BLOCO "QUEM SOU EU" -->
-    <section class="py-20 md:py-28 bg-white">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6">
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
-                <div class="md:col-span-5">
-                    <div class="relative">
-                        <div class="absolute -inset-2 bg-emerald-100 rounded-3xl transform -rotate-2"></div>
-                        <img src="https://i.imgur.com/yOY3DXI.jpeg" alt="Dr. Artur De Oliveira em atendimento" class="relative rounded-2xl shadow-lg w-full h-[380px] object-cover">
-                    </div>
-                </div>
-                <div class="md:col-span-7">
-                    <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Sobre Mim</h2>
-                    <h3 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">Comprometido com a saúde, a estética e a sua autoestima</h3>
-                    <p class="text-slate-600 text-base sm:text-lg mb-6 leading-relaxed">
-                        Olá! Sou o Dr. Artur De Oliveira, especialista em Dentística e Cirurgião-Dentista (Clínico Geral). Acredito que ir ao dentista deve ser uma experiência tranquila, transparente e transformadora. Meu foco é unir técnica refinada e escuta ativa para cuidar do seu sorriso com total segurança.
-                    </p>
-                    <ul class="space-y-3.5 mb-8">
-                        <li class="flex items-start gap-3 text-slate-700">
-                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs mt-0.5"><i class="fa-solid fa-check"></i></span>
-                            <span><strong>Atendimento humanizado</strong> e sem pressa, focado nas suas reais necessidades.</span>
-                        </li>
-                        <li class="flex items-start gap-3 text-slate-700">
-                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs mt-0.5"><i class="fa-solid fa-check"></i></span>
-                            <span><strong>Tecnologia e materiais de ponta</strong> para tratamentos duráveis e estéticos.</span>
-                        </li>
-                        <li class="flex items-start gap-3 text-slate-700">
-                            <span class="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs mt-0.5"><i class="fa-solid fa-check"></i></span>
-                            <span><strong>Planejamento individualizado</strong> para prever cada etapa do seu resultado.</span>
-                        </li>
-                    </ul>
-                </div>
+            <div class="absolute -bottom-3 -right-3 bg-emerald-600 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1.5 border border-slate-900">
+                <i class="fa-solid fa-circle-check text-emerald-300"></i> Goiânia & São Paulo
             </div>
         </div>
-    </section>
 
-    <!-- BLOCO "RESULTADOS REAIS" (GALERIA) -->
-    <section class="py-20 md:py-28 bg-slate-100">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-            <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Transformações</h2>
-            <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Resultados Reais</h3>
-            <p class="text-slate-600 max-w-xl mx-auto mb-12">Confira alguns dos casos tratados com planejamento estético e funcional de excelência.</p>
+        <!-- HEADLINE E TEXTOS LOGO ABAIXO -->
+        <span class="inline-block bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs sm:text-sm font-semibold px-4 py-1.5 rounded-full mb-6 tracking-wide uppercase">
+            Excelência em Dentística & Estética
+        </span>
 
-            <!-- Grid de Galeria de Resultados (Pronta para adicionar mais links futuramente) -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                <!-- Imagem 1 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/yuNi2NK.png">
-                    <div class="h-64 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/yuNi2NK.png" alt="Resultado Antes e Depois 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
-                        <span>Caso Clínico #01</span>
-                        <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
-                    </div>
-                </div>
-                <!-- Imagem 2 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/oJfQfJ1.png">
-                    <div class="h-64 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/oJfQfJ1.png" alt="Resultado Antes e Depois 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
-                        <span>Caso Clínico #02</span>
-                        <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
-                    </div>
-                </div>
-                <!-- Imagem 3 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/5DGbFi6.png">
-                    <div class="h-64 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/5DGbFi6.png" alt="Resultado Antes e Depois 3" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
-                        <span>Caso Clínico #03</span>
-                        <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
-                    </div>
-                </div>
-                <!-- Imagem 4 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/pVmsvHp.png">
-                    <div class="h-64 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/pVmsvHp.png" alt="Resultado Antes e Depois 4" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
-                        <span>Caso Clínico #04</span>
-                        <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
-                    </div>
-                </div>
-                <!-- Imagem 5 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/qsopYUu.png">
-                    <div class="h-64 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/qsopYUu.png" alt="Resultado Antes e Depois 5" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
-                        <span>Caso Clínico #05</span>
-                        <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
-                    </div>
-                </div>
-                <!-- Imagem 6 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/Vuxjjsw.png">
-                    <div class="h-64 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/Vuxjjsw.png" alt="Resultado Antes e Depois 6" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
-                        <span>Caso Clínico #06</span>
-                        <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
-                    </div>
-                </div>
-                <!-- Imagem 7 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/wW035G1.jpeg">
-                    <div class="h-64 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/wW035G1.jpeg" alt="Resultado Antes e Depois 7" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
-                        <span>Caso Clínico #07</span>
-                        <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
-                    </div>
-                </div>
-                <!-- Imagem 8 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/CxgYxEy.jpeg">
-                    <div class="h-64 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/CxgYxEy.jpeg" alt="Resultado Antes e Depois 8" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
-                        <span>Caso Clínico #08</span>
-                        <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
-                    </div>
-                </div>
-                <!-- Imagem 9 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/qwYV7wF.jpeg">
-                    <div class="h-64 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/qwYV7wF.jpeg" alt="Resultado Antes e Depois 9" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
-                        <span>Caso Clínico #09</span>
-                        <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
-                    </div>
-                </div>
-            </div>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-6 max-w-3xl">
+            Eu sou <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">Artur De Oliveira</span>, Cirurgião-Dentista em Goiânia e São Paulo
+        </h1>
 
-            <p class="text-xs text-slate-500 mt-8 italic">Resultados podem variar de pessoa para pessoa. Cada planejamento é único.</p>
-        </div>
-    </section>
+        <p class="text-lg sm:text-xl text-slate-300 mb-10 max-w-2xl font-light leading-relaxed">
+            Transformando sorrisos com planejamento de alta precisão, atendimento humanizado focado em conforto e resultados que devolvem sua confiança ao sorrir.
+        </p>
 
-    <!-- BLOCO "POR QUE CONFIAR EM MIM?" -->
-    <section class="py-20 md:py-28 bg-white">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-            <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Diferenciais</h2>
-            <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-12">Por que confiar no meu atendimento?</h3>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
-                <!-- Card 1 -->
-                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl shadow-sm hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6">
-                        <i class="fa-solid fa-handshake"></i>
-                    </div>
-                    <h4 class="text-lg font-bold text-slate-900 mb-2">Avaliação Honesta</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">Você só faz o que realmente precisa, com transparência total de custos e etapas.</p>
-                </div>
-                <!-- Card 2 -->
-                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl shadow-sm hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6">
-                        <i class="fa-solid fa-user-doctor"></i>
-                    </div>
-                    <h4 class="text-lg font-bold text-slate-900 mb-2">Atendimento Direto Comigo</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">Do primeiro atendimento ao procedimento final, você é acompanhado de perto pelo Dr. Artur.</p>
-                </div>
-                <!-- Card 3 -->
-                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl shadow-sm hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6">
-                        <i class="fa-solid fa-comments"></i>
-                    </div>
-                    <h4 class="text-lg font-bold text-slate-900 mb-2">Clareza e Segurança</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">Explico detalhadamente cada procedimento para tirar qualquer receio ou dúvida.</p>
-                </div>
-                <!-- Card 4 -->
-                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl shadow-sm hover:shadow-md transition">
-                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <h4 class="text-lg font-bold text-slate-900 mb-2">Foco em Excelência</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">Especialista em Dentística com constante atualização nas melhores técnicas da atualidade.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA INTERMEDIÁRIO -->
-    <section class="py-16 bg-gradient-to-r from-slate-900 to-slate-800 text-white text-center">
-        <div class="max-w-3xl mx-auto px-4 sm:px-6">
-            <h3 class="text-2xl sm:text-3xl font-extrabold mb-4">Pronto para transformar o seu sorriso com segurança?</h3>
-            <p class="text-slate-300 mb-8">Agende sua primeira avaliação sem compromisso e tire todas as suas dúvidas diretamente comigo.</p>
+        <!-- BOTÃO PRINCIPAL -->
+        <div class="w-full max-w-md mx-auto flex flex-col items-center">
             <a href="https://api.whatsapp.com/message/KN6JZHLQ73PFF1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" 
-               class="inline-flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold text-base px-8 py-4 rounded-xl shadow-lg transition transform hover:-translate-y-0.5">
-                <i class="fa-brands fa-whatsapp text-2xl"></i>
-                Quero minha consulta gratuita no WhatsApp
+               class="w-full bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold text-base sm:text-lg px-8 py-4 rounded-xl shadow-xl shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:-translate-y-0.5 transition-all duration-200 flex items-center justify-center gap-3 group">
+                <i class="fa-brands fa-whatsapp text-2xl text-slate-950 group-hover:scale-110 transition-transform"></i>
+                Falar com Dr. Artur no WhatsApp
             </a>
-        </div>
-    </section>
-
-    <!-- BLOCO "COMO FUNCIONA A PRIMEIRA CONSULTA" -->
-    <section class="py-20 md:py-28 bg-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-            <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Passo a Passo</h2>
-            <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-12">Como funciona a primeira consulta?</h3>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-                <!-- Passo 1 -->
-                <div class="bg-slate-50 p-8 rounded-2xl relative border border-slate-100">
-                    <span class="absolute top-4 right-4 text-3xl font-extrabold text-slate-200">01</span>
-                    <div class="w-10 h-10 bg-emerald-600 text-white rounded-lg flex items-center justify-center font-bold mb-6">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </div>
-                    <h4 class="text-lg font-bold text-slate-900 mb-2">Chame no WhatsApp</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">Clique em qualquer botão da página para iniciar a conversa com facilidade e rapidez.</p>
-                </div>
-                <!-- Passo 2 -->
-                <div class="bg-slate-50 p-8 rounded-2xl relative border border-slate-100">
-                    <span class="absolute top-4 right-4 text-3xl font-extrabold text-slate-200">02</span>
-                    <div class="w-10 h-10 bg-emerald-600 text-white rounded-lg flex items-center justify-center font-bold mb-6">
-                        <i class="fa-solid fa-calendar-check"></i>
-                    </div>
-                    <h4 class="text-lg font-bold text-slate-900 mb-2">Agende seu Horário</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">Escolha a melhor data e horário disponíveis para o seu atendimento em Goiânia ou São Paulo.</p>
-                </div>
-                <!-- Passo 3 -->
-                <div class="bg-slate-50 p-8 rounded-2xl relative border border-slate-100">
-                    <span class="absolute top-4 right-4 text-3xl font-extrabold text-slate-200">03</span>
-                    <div class="w-10 h-10 bg-emerald-600 text-white rounded-lg flex items-center justify-center font-bold mb-6">
-                        <i class="fa-solid fa-stethoscope"></i>
-                    </div>
-                    <h4 class="text-lg font-bold text-slate-900 mb-2">Avaliação Gratuita</h4>
-                    <p class="text-slate-600 text-sm leading-relaxed">Receba sua avaliação personalizada, tire dúvidas e conheça o plano ideal para você.</p>
-                </div>
-            </div>
-            <p class="mt-8 text-sm font-semibold text-emerald-700 bg-emerald-50 py-3 px-6 rounded-xl inline-block border border-emerald-100">
-                <i class="fa-solid fa-circle-check mr-2"></i> Primeira consulta totalmente gratuita e sem compromisso.
-            </p>
-        </div>
-    </section>
-
-    <!-- BLOCO "MAIS PROVAS" (BASTIDORES E FEEDBACKS) -->
-    <section class="py-20 md:py-28 bg-slate-50">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-            <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Bastidores & Experiência</h2>
-            <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Compromisso com o seu bem-estar</h3>
-            <p class="text-slate-600 max-w-xl mx-auto mb-12">Conheça um pouco do nosso ambiente de trabalho e o que os pacientes dizem sobre o atendimento.</p>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                <!-- Foto Bastidor 1 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md group cursor-pointer gallery-item" data-img="https://i.imgur.com/IKThXo3.jpeg">
-                    <div class="h-60 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/IKThXo3.jpeg" alt="Bastidores atendimento" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-center font-medium text-slate-700 text-sm">
-                        <span>Atendimento personalizado</span>
-                    </div>
-                </div>
-                <!-- Foto Bastidor 2 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md group cursor-pointer gallery-item" data-img="https://i.imgur.com/SEMge41.png">
-                    <div class="h-60 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/SEMge41.png" alt="Ambiente clínico" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-center font-medium text-slate-700 text-sm">
-                        <span>Estrutura e conforto</span>
-                    </div>
-                </div>
-                <!-- Feedback 1 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md group cursor-pointer gallery-item" data-img="https://i.imgur.com/LjHvFZi.jpeg">
-                    <div class="h-60 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/LjHvFZi.jpeg" alt="Feedback de cliente" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-center font-medium text-slate-700 text-sm">
-                        <span>Depoimento de paciente</span>
-                    </div>
-                </div>
-                <!-- Feedback 2 -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-md group cursor-pointer gallery-item" data-img="https://i.imgur.com/ohdyOYo.jpeg">
-                    <div class="h-60 overflow-hidden bg-slate-200">
-                        <img src="https://i.imgur.com/ohdyOYo.jpeg" alt="Feedback de cliente" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    </div>
-                    <div class="p-4 text-center font-medium text-slate-700 text-sm">
-                        <span>Satisfação garantida</span>
-                    </div>
-                </div>
+            <div class="flex items-center gap-2 mt-3 text-xs text-slate-400">
+                <i class="fa-solid fa-bolt text-amber-400"></i>
+                <span>Resposta rápida • Atendimento humanizado</span>
             </div>
         </div>
-    </section>
 
-    <!-- CTA FINAL -->
-    <section class="py-20 bg-slate-900 text-white text-center relative overflow-hidden">
-        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:16px_16px]"></div>
-        <div class="max-w-3xl mx-auto px-4 sm:px-6 relative z-10">
-            <h2 class="text-3xl sm:text-4xl font-extrabold mb-6">Dê o primeiro passo para o sorriso que você merece</h2>
-            <p class="text-slate-300 text-lg mb-8 max-w-xl mx-auto">Agende agora a sua primeira consulta gratuita e descubra o tratamento ideal para o seu caso.</p>
-            <a href="https://api.whatsapp.com/message/KN6JZHLQ73PFF1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" 
-               class="inline-flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-extrabold text-lg px-8 py-4 rounded-xl shadow-xl shadow-emerald-500/20 hover:scale-105 transition duration-200">
-                <i class="fa-brands fa-whatsapp text-2xl"></i>
-                Agendar primeira consulta gratuita no WhatsApp
-            </a>
-            <p class="text-xs text-slate-400 mt-4">Atendimento em Goiânia e São Paulo • Vagas limitadas</p>
-        </div>
-    </section>
-
-    <!-- RODAPÉ SIMPLES -->
-    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900 text-center">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 flex flex-col items-center gap-4">
-            <h3 class="text-white font-bold text-lg">Dr. Artur De Oliveira</h3>
-            <p class="text-sm">Especialista em Dentística • Cirurgião-Dentista (Clínico Geral)<br>Goiânia / São Paulo</p>
-            <div class="flex items-center gap-4 mt-2">
-                <a href="https://www.instagram.com/drarturdeoliveira_/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-slate-900 text-white flex items-center justify-center hover:bg-emerald-500 hover:text-slate-950 transition">
-                    <i class="fa-brands fa-instagram text-lg"></i>
-                </a>
-                <a href="https://api.whatsapp.com/message/KN6JZHLQ73PFF1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-slate-900 text-white flex items-center justify-center hover:bg-emerald-500 hover:text-slate-950 transition">
-                    <i class="fa-brands fa-whatsapp text-lg"></i>
-                </a>
-            </div>
-            <p class="text-xs text-slate-600 mt-6">&copy; Dr. Artur De Oliveira. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
-    <!-- LIGHTBOX MODAL -->
-    <div id="lightbox" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center p-4">
-        <button id="lightbox-close" class="absolute top-6 right-6 text-white text-3xl hover:text-emerald-400 transition">&times;</button>
-        <img id="lightbox-img" src="" alt="Imagem ampliada" class="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl">
     </div>
+</header>
 
-    <!-- JAVASCRIPT LIGHTBOX -->
-    <script>
-        const lightbox = document.getElementById('lightbox');
-        const lightboxImg = document.getElementById('lightbox-img');
-        const lightboxClose = document.getElementById('lightbox-close');
-        const galleryItems = document.querySelectorAll('.gallery-item');
+<!-- BLOCO "QUEM SOU EU" -->
+<section class="py-20 md:py-28 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+            <div class="md:col-span-5">
+                <div class="relative">
+                    <div class="absolute -inset-2 bg-emerald-100 rounded-3xl transform -rotate-2"></div>
+                    <img src="https://i.imgur.com/yOY3DXI.jpeg" alt="Dr. Artur De Oliveira em atendimento" class="relative rounded-2xl shadow-lg w-full h-[380px] object-cover">
+                </div>
+            </div>
+            <div class="md:col-span-7">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Sobre Mim</h2>
+                <h3 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">Comprometido com a saúde, a estética e a sua autoestima</h3>
+                <p class="text-slate-600 text-base sm:text-lg mb-6 leading-relaxed">
+                    Olá! Sou o Dr. Artur De Oliveira, especialista em Dentística e Cirurgião-Dentista (Clínico Geral). Acredito que ir ao dentista deve ser uma experiência tranquila, transparente e transformadora. Meu foco é unir técnica refinada e escuta ativa para cuidar do seu sorriso com total segurança.
+                </p>
+                <ul class="space-y-3.5 mb-8">
+                    <li class="flex items-start gap-3 text-slate-700">
+                        <span class="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs mt-0.5"><i class="fa-solid fa-check"></i></span>
+                        <span><strong>Atendimento humanizado</strong> e sem pressa, focado nas suas reais necessidades.</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-slate-700">
+                        <span class="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs mt-0.5"><i class="fa-solid fa-check"></i></span>
+                        <span><strong>Tecnologia e materiais de ponta</strong> para tratamentos duráveis e estéticos.</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-slate-700">
+                        <span class="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-xs mt-0.5"><i class="fa-solid fa-check"></i></span>
+                        <span><strong>Planejamento individualizado</strong> para prever cada etapa do seu resultado.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
-        galleryItems.forEach(item => {
-            item.addEventListener('click', () => {
-                const imgUrl = item.getAttribute('data-img');
-                lightboxImg.src = imgUrl;
-                lightbox.classList.remove('hidden');
-                lightbox.classList.add('flex');
-                document.body.style.overflow = 'hidden';
-            });
+<!-- BLOCO "RESULTADOS REAIS" (GALERIA) -->
+<section class="py-20 md:py-28 bg-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Transformações</h2>
+        <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Resultados Reais</h3>
+        <p class="text-slate-600 max-w-xl mx-auto mb-12">Confira alguns dos casos tratados com planejamento estético e funcional de excelência.</p>
+
+        <!-- Grid de Galeria de Resultados (Pronta para adicionar mais links futuramente) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Imagem 1 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/yuNi2NK.png">
+                <div class="h-64 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/yuNi2NK.png" alt="Resultado Antes e Depois 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
+                    <span>Caso Clínico #01</span>
+                    <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
+                </div>
+            </div>
+            <!-- Imagem 2 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/oJfQfJ1.png">
+                <div class="h-64 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/oJfQfJ1.png" alt="Resultado Antes e Depois 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
+                    <span>Caso Clínico #02</span>
+                    <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
+                </div>
+            </div>
+            <!-- Imagem 3 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/5DGbFi6.png">
+                <div class="h-64 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/5DGbFi6.png" alt="Resultado Antes e Depois 3" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
+                    <span>Caso Clínico #03</span>
+                    <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
+                </div>
+            </div>
+            <!-- Imagem 4 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/pVmsvHp.png">
+                <div class="h-64 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/pVmsvHp.png" alt="Resultado Antes e Depois 4" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
+                    <span>Caso Clínico #04</span>
+                    <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
+                </div>
+            </div>
+            <!-- Imagem 5 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/qsopYUu.png">
+                <div class="h-64 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/qsopYUu.png" alt="Resultado Antes e Depois 5" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
+                    <span>Caso Clínico #05</span>
+                    <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
+                </div>
+            </div>
+            <!-- Imagem 6 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/Vuxjjsw.png">
+                <div class="h-64 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/Vuxjjsw.png" alt="Resultado Antes e Depois 6" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
+                    <span>Caso Clínico #06</span>
+                    <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
+                </div>
+            </div>
+            <!-- Imagem 7 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/wW035G1.jpeg">
+                <div class="h-64 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/wW035G1.jpeg" alt="Resultado Antes e Depois 7" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
+                    <span>Caso Clínico #07</span>
+                    <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
+                </div>
+            </div>
+            <!-- Imagem 8 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/CxgYxEy.jpeg">
+                <div class="h-64 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/CxgYxEy.jpeg" alt="Resultado Antes e Depois 8" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
+                    <span>Caso Clínico #08</span>
+                    <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
+                </div>
+            </div>
+            <!-- Imagem 9 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 group cursor-pointer gallery-item" data-img="https://i.imgur.com/qwYV7wF.jpeg">
+                <div class="h-64 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/qwYV7wF.jpeg" alt="Resultado Antes e Depois 9" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-left font-medium text-slate-700 text-sm flex justify-between items-center">
+                    <span>Caso Clínico #09</span>
+                    <span class="text-emerald-600 text-xs font-bold uppercase"><i class="fa-solid fa-magnifying-glass-plus mr-1"></i> Ampliar</span>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-xs text-slate-500 mt-8 italic">Resultados podem variar de pessoa para pessoa. Cada planejamento é único.</p>
+    </div>
+</section>
+
+<!-- BLOCO "POR QUE CONFIAR EM MIM?" -->
+<section class="py-20 md:py-28 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Diferenciais</h2>
+        <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-12">Por que confiar no meu atendimento?</h3>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-left">
+            <!-- Card 1 -->
+            <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6">
+                    <i class="fa-solid fa-handshake"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 mb-2">Avaliação Honesta</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Você só faz o que realmente precisa, com transparência total de custos e etapas.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6">
+                    <i class="fa-solid fa-user-doctor"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 mb-2">Atendimento Direto Comigo</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Do primeiro atendimento ao procedimento final, você é acompanhado de perto pelo Dr. Artur.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6">
+                    <i class="fa-solid fa-comments"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 mb-2">Clareza e Segurança</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Explico detalhadamente cada procedimento para tirar qualquer receio ou dúvida.</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl font-bold mb-6">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 mb-2">Foco em Excelência</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Especialista em Dentística com constante atualização nas melhores técnicas da atualidade.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA INTERMEDIÁRIO -->
+<section class="py-16 bg-gradient-to-r from-slate-900 to-slate-800 text-white text-center">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+        <h3 class="text-2xl sm:text-3xl font-extrabold mb-4">Pronto para transformar o seu sorriso com segurança?</h3>
+        <p class="text-slate-300 mb-8">Tire todas as suas dúvidas e agende sua avaliação diretamente comigo pelo WhatsApp.</p>
+        <a href="https://api.whatsapp.com/message/KN6JZHLQ73PFF1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold text-base px-8 py-4 rounded-xl shadow-lg transition transform hover:-translate-y-0.5">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+            Falar no WhatsApp agora
+        </a>
+    </div>
+</section>
+
+<!-- BLOCO "COMO FUNCIONA O ATENDIMENTO" -->
+<section class="py-20 md:py-28 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Passo a Passo</h2>
+        <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-12">Como funciona o atendimento?</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+            <!-- Passo 1 -->
+            <div class="bg-slate-50 p-8 rounded-2xl relative border border-slate-100">
+                <span class="absolute top-4 right-4 text-3xl font-extrabold text-slate-200">01</span>
+                <div class="w-10 h-10 bg-emerald-600 text-white rounded-lg flex items-center justify-center font-bold mb-6">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 mb-2">Chame no WhatsApp</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Clique em qualquer botão da página para iniciar a conversa com facilidade e rapidez.</p>
+            </div>
+            <!-- Passo 2 -->
+            <div class="bg-slate-50 p-8 rounded-2xl relative border border-slate-100">
+                <span class="absolute top-4 right-4 text-3xl font-extrabold text-slate-200">02</span>
+                <div class="w-10 h-10 bg-emerald-600 text-white rounded-lg flex items-center justify-center font-bold mb-6">
+                    <i class="fa-solid fa-calendar-check"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 mb-2">Agende seu Horário</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Escolha a melhor data e horário disponíveis para o seu atendimento em Goiânia ou São Paulo.</p>
+            </div>
+            <!-- Passo 3 -->
+            <div class="bg-slate-50 p-8 rounded-2xl relative border border-slate-100">
+                <span class="absolute top-4 right-4 text-3xl font-extrabold text-slate-200">03</span>
+                <div class="w-10 h-10 bg-emerald-600 text-white rounded-lg flex items-center justify-center font-bold mb-6">
+                    <i class="fa-solid fa-stethoscope"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-900 mb-2">Avaliação Personalizada</h4>
+                <p class="text-slate-600 text-sm leading-relaxed">Receba sua avaliação clínica, tire suas dúvidas e conheça o plano ideal para você.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BLOCO "MAIS PROVAS" (BASTIDORES E FEEDBACKS) -->
+<section class="py-20 md:py-28 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-3">Bastidores & Experiência</h2>
+        <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">Compromisso com o seu bem-estar</h3>
+        <p class="text-slate-600 max-w-xl mx-auto mb-12">Conheça um pouco do nosso ambiente de trabalho e o que os pacientes dizem sobre o atendimento.</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <!-- Foto Bastidor 1 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md group cursor-pointer gallery-item" data-img="https://i.imgur.com/IKThXo3.jpeg">
+                <div class="h-60 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/IKThXo3.jpeg" alt="Bastidores atendimento" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-center font-medium text-slate-700 text-sm">
+                    <span>Atendimento personalizado</span>
+                </div>
+            </div>
+            <!-- Foto Bastidor 2 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md group cursor-pointer gallery-item" data-img="https://i.imgur.com/SEMge41.png">
+                <div class="h-60 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/SEMge41.png" alt="Ambiente clínico" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-center font-medium text-slate-700 text-sm">
+                    <span>Estrutura e conforto</span>
+                </div>
+            </div>
+            <!-- Feedback 1 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md group cursor-pointer gallery-item" data-img="https://i.imgur.com/LjHvFZi.jpeg">
+                <div class="h-60 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/LjHvFZi.jpeg" alt="Feedback de cliente" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-center font-medium text-slate-700 text-sm">
+                    <span>Depoimento de paciente</span>
+                </div>
+            </div>
+            <!-- Feedback 2 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md group cursor-pointer gallery-item" data-img="https://i.imgur.com/ohdyOYo.jpeg">
+                <div class="h-60 overflow-hidden bg-slate-200">
+                    <img src="https://i.imgur.com/ohdyOYo.jpeg" alt="Feedback de cliente" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="p-4 text-center font-medium text-slate-700 text-sm">
+                    <span>Satisfação garantida</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="py-20 bg-slate-900 text-white text-center relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 relative z-10">
+        <h2 class="text-3xl sm:text-4xl font-extrabold mb-6">Dê o primeiro passo para o sorriso que você merece</h2>
+        <p class="text-slate-300 text-lg mb-8 max-w-xl mx-auto">Entre em contato agora mesmo e descubra o tratamento ideal para o seu caso.</p>
+        <a href="https://api.whatsapp.com/message/KN6JZHLQ73PFF1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-extrabold text-lg px-8 py-4 rounded-xl shadow-xl shadow-emerald-500/20 hover:scale-105 transition duration-200">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+            Falar com Dr. Artur no WhatsApp
+        </a>
+        <p class="text-xs text-slate-400 mt-4">Atendimento em Goiânia e São Paulo • Vagas limitadas</p>
+    </div>
+</section>
+
+<!-- RODAPÉ SIMPLES -->
+<footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900 text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 flex flex-col items-center gap-4">
+        <h3 class="text-white font-bold text-lg">Dr. Artur De Oliveira</h3>
+        <p class="text-sm">Especialista em Dentística • Cirurgião-Dentista (Clínico Geral)<br>Goiânia / São Paulo</p>
+        <div class="flex items-center gap-4 mt-2">
+            <a href="https://www.instagram.com/drarturdeoliveira_/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-slate-900 text-white flex items-center justify-center hover:bg-emerald-500 hover:text-slate-950 transition">
+                <i class="fa-brands fa-instagram text-lg"></i>
+            </a>
+            <a href="https://api.whatsapp.com/message/KN6JZHLQ73PFF1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-slate-900 text-white flex items-center justify-center hover:bg-emerald-500 hover:text-slate-950 transition">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+            </a>
+        </div>
+        <p class="text-xs text-slate-600 mt-6">&copy; Dr. Artur De Oliveira. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<!-- LIGHTBOX MODAL -->
+<div id="lightbox" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center p-4">
+    <button id="lightbox-close" class="absolute top-6 right-6 text-white text-3xl hover:text-emerald-400 transition">&times;</button>
+    <img id="lightbox-img" src="" alt="Imagem ampliada" class="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl">
+</div>
+
+<!-- JAVASCRIPT LIGHTBOX -->
+<script>
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxClose = document.getElementById('lightbox-close');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    galleryItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const imgUrl = item.getAttribute('data-img');
+            lightboxImg.src = imgUrl;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            document.body.style.overflow = 'hidden';
         });
+    });
 
-        const closeLightbox = () => {
-            lightbox.classList.remove('flex');
-            lightbox.classList.add('hidden');
-            lightboxImg.src = '';
-            document.body.style.overflow = 'auto';
-        };
+const closeLightbox = () => {
+        lightbox.classList.remove('flex');
+        lightbox.classList.add('hidden');
+        lightboxImg.src = '';
+        document.body.style.overflow = 'auto';
+    };
 
-        lightboxClose.addEventListener('click', closeLightbox);
-        lightbox.addEventListener('click', (e) => {
-            if (e.target === lightbox) {
-                closeLightbox();
-            }
-        });
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                closeLightbox();
-            }
-        });
-    </script>
-</body>
-</html>
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            closeLightbox();
+        }
+    });
+</script>
